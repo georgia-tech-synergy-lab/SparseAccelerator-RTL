@@ -1,0 +1,1 @@
+../../accelerator/compute/vegeta_compute_top.sv

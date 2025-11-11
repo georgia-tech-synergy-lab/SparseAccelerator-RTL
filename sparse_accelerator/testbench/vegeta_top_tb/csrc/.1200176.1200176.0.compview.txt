@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1740259098.928281484, "rt":0.68, "ut":0.54, "st":0.08}}
+{"vcselab":{"timestamp_begin":1740259099.682908596, "rt":0.31, "ut":0.20, "st":0.07}}
+{"link":{"timestamp_begin":1740259100.046212482, "rt":0.19, "ut":0.13, "st":0.07}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1740259098.507652605}
+{"VCS_COMP_START_TIME": 1740259098.507652605}
+{"VCS_COMP_END_TIME": 1740259100.715356828}
+{"VCS_USER_OPTIONS": "-f vegeta_top_tb.include +v2k -R +lint=all -sverilog -full64 -timescale=1ns/10ps -debug_acc+pp+dmptf -debug_region+cell+encrypt -debug_access -l vegeta_top_tb.log +vpdfile+./vegeta_top_tb.vpd"}
+{"vcs1": {"peak_mem": 330572}}
+{"vcselab": {"peak_mem": 200488}}

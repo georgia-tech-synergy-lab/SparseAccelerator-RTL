@@ -1,0 +1,61 @@
+# Makefile
+# make RANDOM_SEED= TESTCASE=
+
+#modify for your sim directory structure, mine has the following structure: /sim/compute/
+PROJECT_ROOT=$(PWD)/../../
+
+export PYTHONPATH := $(PROJECT_ROOT)/python/compute:$(PYTHONPATH)
+
+SIM ?= modelsim
+TOPLEVEL_LANG ?= verilog
+
+X=2
+Y=1
+
+# NUM_DATA=2
+# DATA_WIDTH=8
+# DIVIDER_PRECISION=26
+# RANDOM_TEST_ITERATIONS=10000
+
+# MAX_ERROR=1.0
+
+VERILOG_SOURCES += $(PROJECT_ROOT)/accelerator/compute/vegeta_compute_top.sv
+
+VERILOG_SOURCES += $(PROJECT_ROOT)/accelerator/compute/vegeta_pe.sv
+VERILOG_SOURCES += $(PROJECT_ROOT)/accelerator/compute/vegeta_pu.sv
+VERILOG_SOURCES += $(PROJECT_ROOT)/accelerator/compute/vegeta_mac.sv
+VERILOG_SOURCES += $(PROJECT_ROOT)/accelerator/compute/bfp32_adder.sv
+VERILOG_SOURCES += $(PROJECT_ROOT)/accelerator/compute/bfp16_mult.sv
+
+VERILOG_SOURCES += $(PROJECT_ROOT)/accelerator/compute/adder_tree.sv
+
+
+VERILOG_SOURCES += $(PROJECT_ROOT)/accelerator/compute/general_multiplier.sv
+VERILOG_SOURCES += $(PROJECT_ROOT)/accelerator/compute/mult_normalizer.sv
+
+
+VERILOG_SOURCES += $(PROJECT_ROOT)/accelerator/compute/general_adder.sv
+VERILOG_SOURCES += $(PROJECT_ROOT)/accelerator/compute/addition_normalizer.sv
+
+#not sure why they depend on a file with TPU in the name, I'm also guessing that this is what is meant by vTPU_pack
+# VERILOG_SOURCES += $(PROJECT_ROOT)/accelerator/vTPU_pkg.sv
+VERILOG_SOURCES += $(PROJECT_ROOT)/accelerator/compute/vTPU_pkg.sv
+
+
+# TOPLEVEL is the name of the toplevel module in your Verilog or VHDL file
+TOPLEVEL = vegeta_compute_top
+
+# MODULE is the basename of the Python test file
+MODULE = test_vegeta_compute_top
+
+# SIM_ARGS += -gX=$(X) -gY=$(Y) -gX_SCALED=$(X) -gY_SCALED=$(Y)
+
+PLUSARGS += +rand_test_iterations=$(RANDOM_TEST_ITERATIONS) +max_error=$(MAX_ERROR) +X=$(X) +Y=$(Y)
+
+# include cocotb's make rules to take care of the simulator setup
+include $(shell cocotb-config --makefiles)/Makefile.sim
+
+
+
+
+

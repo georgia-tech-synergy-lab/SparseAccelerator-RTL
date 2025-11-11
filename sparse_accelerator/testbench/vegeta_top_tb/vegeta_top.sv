@@ -1,0 +1,1 @@
+../../accelerator/vegeta_top.sv

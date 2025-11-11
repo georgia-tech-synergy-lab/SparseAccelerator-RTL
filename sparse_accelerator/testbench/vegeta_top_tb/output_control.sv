@@ -1,0 +1,1 @@
+../../accelerator/data_control/output_control.sv

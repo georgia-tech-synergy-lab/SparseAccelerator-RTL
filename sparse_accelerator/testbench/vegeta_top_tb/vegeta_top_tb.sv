@@ -1,0 +1,1 @@
+../../accelerator/testbenches/vegeta_top_tb/vegeta_top_tb.sv

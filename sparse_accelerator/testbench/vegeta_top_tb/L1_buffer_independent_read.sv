@@ -1,0 +1,1 @@
+../../accelerator/memory/L1_buffer_independent_read.sv

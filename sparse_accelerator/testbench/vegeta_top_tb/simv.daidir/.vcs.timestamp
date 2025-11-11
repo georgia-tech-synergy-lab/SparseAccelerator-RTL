@@ -1,0 +1,196 @@
+0
+58
++itf+/tools/software/synopsys/vcs/latest/linux64/lib/vcsdp_lite.tab
++lint=all
++v2k
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/tools/software/synopsys/vcs/latest/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /tools/software/synopsys/vcs/latest/linux64/lib/libvirsim.so /tools/software/synopsys/vcs/latest/linux64/lib/liberrorinf.so /tools/software/synopsys/vcs/latest/linux64/lib/libsnpsmalloc.so /tools/software/synopsys/vcs/latest/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/tools/software/synopsys/vcs/latest/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/tools/software/synopsys/verdi/latest/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/tools/software/synopsys/vcs/latest/include
+-Mxllcflags=
+-P
+-Xfile_begin_f=vegeta_top_tb.include
+-Xfile_end
+-Xvcs_run_simv=1
+-debug_acc+pp+dmptf
+-debug_access
+-debug_region+cell+encrypt
+-fsdb
+-full64
+-gen_obj
+-l
+-picarchive
+-sverilog
+-timescale=1ns/10ps
+/tools/software/synopsys/vcs/latest/linux64/bin/vcs1
+vegeta_top_tb.log
+/tools/software/synopsys/verdi/latest/share/PLI/VCS/LINUX64/verdi.tab
+./general_adder.sv
+./fp32_adder.sv
+./general_multiplier.sv
+./bf16_mult.sv
+./vegeta_mac.sv
+./vegeta_pu.sv
+./vegeta_pe.sv
+./adder_tree.sv
+./vegeta_compute_top.sv
+./L1_buffer.sv
+./L1_buffer_independent_read.sv
+./L1_buffer_independent_write.sv
+./activation_control.sv
+./weight_control.sv
+./accumulation_control.sv
+./output_control.sv
+./vegeta_control.sv
+./vegeta_top.sv
+./vegeta_top_tb.sv
+83
+which_declare=declare -f
+XDG_SESSION_ID=1155
+XDG_RUNTIME_DIR=/run/user/3330773
+XDG_DATA_DIRS=/nethome/aramacha41/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+WV_HOME=/tools/software/synopsys/wv/latest
+VSCODE_IPC_HOOK_CLI=/run/user/3330773/vscode-ipc-e32a36ef-3c5e-498d-8c67-a6654f53f7b5.sock
+VSCODE_GIT_IPC_HANDLE=/run/user/3330773/vscode-git-5e34f10334.sock
+VSCODE_GIT_ASKPASS_NODE=/nethome/aramacha41/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node
+VSCODE_GIT_ASKPASS_MAIN=/nethome/aramacha41/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VMR_MODE_FLAG=64
+VERDI_HOME=/tools/software/synopsys/verdi/latest
+VENDOR=unknown
+VCS_PYTHON3=/tools/software/synopsys/vcs/latest/linux64/bin/Python3/bin/python3
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=vegeta_top_tb.log
+VCS_HOME=/tools/software/synopsys/vcs/latest
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+VCSMX_HOME=/tools/software/synopsys/vcs/latest
+UNAME=/bin/uname
+TOOL_HOME=/tools/software/synopsys/vcs/latest/linux64
+TK_LIBRARY=/tools/software/synopsys/vcs/latest/etc/auxx/tcllib/tk8.4/library
+TERM_PROGRAM_VERSION=1.97.2
+TERM_PROGRAM=vscode
+S_COLORS=auto
+SYNOPSYS_LC_ROOT=/tools/software/synopsys/lc/latest
+SYN=/tools/software/synopsys
+SSL_CERT_FILE=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+SSL_CERT_DIR=/etc/pki/tls/certs
+SSH_CONNECTION=10.2.65.213 50998 130.207.232.35 22
+SSH_CLIENT=10.2.65.213 50998 22
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SNPS_VCS_PYTHON3=/tools/software/synopsys/vcs/latest/linux64/bin/Python3/bin/python3
+SNPS_VCS_CLANG_PATH=/tools/software/synopsys/vcs/latest/linux64/clang
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+RSOFT_PROGRAMPATH=/tools/software/synopsys/photonicsolutions/latest/rsoft/bin
+PHOTONICS_SOLUTIONS_VERSION=latest
+PHOTONICS_SOLUTIONS_ROOT=/tools/software/synopsys/photonicsolutions
+OVA_UUM=0
+OSTYPE=linux
+OPTO_LINK_BASE=/tools/software/synopsys/photonicsolutions/latest/optodesigner/bin
+MODULES_USE_COMPAT_VERSION=0
+MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+MODULESHOME=/usr/share/Modules
+MODULEPATH_modshare=/usr/share/Modules/modulefiles:2:/etc/modulefiles:2:/usr/share/modulefiles:2
+MODULEPATH=/etc/scl/modulefiles:/etc/scl/modulefiles:/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+MLM_LICENSE_FILE=1711@matlablic.ecs.gatech.edu
+MGLS_LICENSE_FILE=1717@ece-linlic.ece.gatech.edu
+MFLAGS=
+MAKE_TERMOUT=/dev/pts/8
+MAKE_TERMERR=/dev/pts/8
+MAKELEVEL=1
+MAKEFLAGS=
+LOADEDMODULES=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KRB5CCNAME=FILE:/tmp/krb5cc_3330773_skCNV2
+KDEDIRS=/usr
+ICV_HOME_DIR=/tools/software/synopsys/icvalidator/latest
+HOSTTYPE=x86_64-linux
+HISTCONTROL=ignoredups
+GROUP=unknown
+GOLDENGATE_LICENSE_FILE=1812@ece-linlic.ece.gatech.edu
+GIT_ASKPASS=/nethome/aramacha41/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/3330773/bus
+COLORTERM=truecolor
+CDS_LIC_FILE=5280@ece-linlic.ece.gatech.edu
+BASH_FUNC_which%%=() {  ( alias;_ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@_}
+BASH_FUNC_switchml%%=() {  typeset swfound=1;_ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then_ typeset swname='main';_ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then_ typeset swfound=0;_ unset MODULES_USE_COMPAT_VERSION;_ fi;_ else_ typeset swname='compatibility';_ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then_ typeset swfound=0;_ MODULES_USE_COMPAT_VERSION=1;_ export MODULES_USE_COMPAT_VERSION;_ fi;_ fi;_ if [ $swfound -eq 0 ]; then_ echo "Switching to Modules $swname version";_ source /usr/share/Modules/init/bash;_ else_ echo "Cannot switch to Modules $swname version, command not found";_ return 1;_ fi_}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then_ eval "module $@";_ else_ /usr/bin/scl "$@";_ fi_}
+BASH_FUNC_module%%=() {  _module_raw "$@" 2>&1_}
+BASH_FUNC_ml%%=() {  module ml "$@"_}
+BASH_FUNC__module_raw%%=() {  unset _mlshdbg;_ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then_ case "$-" in _ *v*x*)_ set +vx;_ _mlshdbg='vx'_ ;;_ *v*)_ set +v;_ _mlshdbg='v'_ ;;_ *x*)_ set +x;_ _mlshdbg='x'_ ;;_ *)_ _mlshdbg=''_ ;;_ esac;_ fi;_ unset _mlre _mlIFS;_ if [ -n "${IFS+x}" ]; then_ _mlIFS=$IFS;_ fi;_ IFS=' ';_ for _mlv in ${MODULES_RUN_QUARANTINE:-};_ do_ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then_ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then_ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";_ fi;_ _mlrv="MODULES_RUNENV_${_mlv}";_ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";_ fi;_ done;_ if [ -n "${_mlre:-}" ]; then_ eval `eval ${_mlre} /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '"$@"'`;_ else_ eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;_ fi;_ _mlstatus=$?;_ if [ -n "${_mlIFS+x}" ]; then_ IFS=$_mlIFS;_ else_ unset IFS;_ fi;_ unset _mlre _mlv _mlrv _mlIFS;_ if [ -n "${_mlshdbg:-}" ]; then_ set -$_mlshdbg;_ fi;_ unset _mlshdbg;_ return $_mlstatus_}
+ARCH=linux
+AGILEESOFD_LICENSE_FILE=1812@ece-linlic.ece.gatech.edu
+0
+0
+22
+1740260267 ./vegeta_top_tb.sv
+1740260267 ../../accelerator/testbenches/vegeta_top_tb/vegeta_top_tb.sv
+1717635853 ./vegeta_top.sv
+1717635853 ../../accelerator/vegeta_top.sv
+1717562553 ./vegeta_control.sv
+1717562553 ../../accelerator/data_control/vegeta_control.sv
+1717562553 ./output_control.sv
+1717562553 ../../accelerator/data_control/output_control.sv
+1717635377 ./accumulation_control.sv
+1717635377 ../../accelerator/data_control/accumulation_control.sv
+1717562553 ./weight_control.sv
+1717562553 ../../accelerator/data_control/weight_control.sv
+1717562553 ./activation_control.sv
+1717562553 ../../accelerator/data_control/activation_control.sv
+1717562553 ./L1_buffer_independent_write.sv
+1717562553 ../../accelerator/memory/L1_buffer_independent_write.sv
+1717562553 ./L1_buffer_independent_read.sv
+1717562553 ../../accelerator/memory/L1_buffer_independent_read.sv
+1717562553 ./L1_buffer.sv
+1717562553 ../../accelerator/memory/L1_buffer.sv
+1717562553 ./vegeta_compute_top.sv
+1717562553 ../../accelerator/compute/vegeta_compute_top.sv
+1717562553 ./adder_tree.sv
+1717562553 ../../accelerator/compute/adder_tree.sv
+1717562553 ./vegeta_pe.sv
+1717562553 ../../accelerator/compute/vegeta_pe.sv
+1717562553 ./vegeta_pu.sv
+1717562553 ../../accelerator/compute/vegeta_pu.sv
+1717562553 ./vegeta_mac.sv
+1717562553 ../../accelerator/compute/vegeta_mac.sv
+1717562553 ./bf16_mult.sv
+1717562553 ../../accelerator/arithmetic/bf16_mult.sv
+1717562553 ./general_multiplier.sv
+1717562553 ../../accelerator/arithmetic/general_multiplier.sv
+1717562553 ./fp32_adder.sv
+1717562553 ../../accelerator/arithmetic/fp32_adder.sv
+1717562553 ./general_adder.sv
+1717562553 ../../accelerator/arithmetic/general_adder.sv
+1717562553 vegeta_top_tb.include
+1717562553 ../../accelerator/testbenches/vegeta_top_tb/vegeta_top_tb.include
+1723953532 /tools/software/synopsys/verdi/latest/share/PLI/VCS/LINUX64/verdi.tab
+1725332768 /tools/software/synopsys/vcs/latest/linux64/lib/vcsdp_lite.tab
+4
+1725336088 /tools/software/synopsys/vcs/latest/linux64/lib/libvirsim.so
+1725334290 /tools/software/synopsys/vcs/latest/linux64/lib/liberrorinf.so
+1725334282 /tools/software/synopsys/vcs/latest/linux64/lib/libsnpsmalloc.so
+1725334269 /tools/software/synopsys/vcs/latest/linux64/lib/libvfs.so
+1740260271 simv.daidir
+-1 partitionlib
